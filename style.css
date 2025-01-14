@@ -1,0 +1,20 @@
+body {
+	background-image: url(bg.jpeg);
+	background-size: cover;
+	font-family: josefin sans, sans-serif;
+
+}
+h1 { 
+  text-shadow: 0 0 5px #ffffff, 0 0 10px #155f2a, 0 0 15px rgba(255, 255, 255, 0.5);
+}
+
+h5 {
+	text-shadow: 0 0 5px #ffffff, 0 0 10px #4e4440, 0 0 15px rgba(255, 255, 255, 0.5);
+}
+
+.carousel-inner img {
+    width: auto;
+    height: 400px; 
+    object-fit: cover;
+    border: 5px solid #7ab24e;
+}

@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Filipino Meal Preparation</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=League+Spartan:wght@100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    
+    <style>
+        body {
+            background-image: url(bg.jpeg);
+            background-size: contain;
+            font-family: 'Josefin Sans', sans-serif;
+        }
+
+        .card {
+            border-radius: 8px;
+            margin: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            padding: 16px;
+            text-align: center;
+            background-color: #b9b1a6;
+        }
+
+        .card img {
+            width: 100%;
+            height: auto;
+        }
+
+        .content {
+            padding: 16px;
+        }
+
+        /* Navbar custom styles */
+        .navbar {
+            margin-bottom: 20px;
+        }
+
+        .navbar-nav {
+            margin-left: auto;
+        }
+
+        /* Adjust card content */
+        .card h3 {
+            font-size: 1.2rem;
+            margin-bottom: 15px;
+        }
+
+        .card p {
+            font-size: 1rem;
+        }
+    </style>
+</head>
+<body>
+
+<!-- navbar -->
+<nav class="navbar navbar-expand-sm bg-warning ">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="logo.png" alt="Avatar Logo" style="width:45px;" class="rounded-pill" href="index.html">Robotics Club</a>
+        
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Categories</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="registration.html">Submit Recipe</a>
+                </li>
+            </ul>
+                        <form class="d-flex">
+                <input class="form-control me-2" type="text" placeholder="Search">
+                <button class="btn btn-info" type="button">Search</button>
+            </form>
+        </div>
+    </div>
+</nav>
+
+<!-- contents -->
+<div class="container">
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-3 g-4">
+        <div class="col">
+            <div class="card">
+                <h3>Breakfast</h3>
+                <p>From sweet to savory, discover breakfast recipes that bring joy to your mornings!</p>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <h3>Lunch</h3>
+                <p>Make lunch exciting with fresh, tasty recipes that everyone will love!</p>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <h3>Dinner</h3>
+                <p>Explore a variety of dinner recipes that are both satisfying and simple to prepare!</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- food -->
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-3 g-4 mt-3">
+        <div class="col">
+            <div class="card">
+                <img src="https://i0.wp.com/www.angsarap.net/wp-content/uploads/2020/02/Vigan-Longganisa-Wide.jpg?" alt="Longganisa">
+                <h3 class="mt-3">Longganisa</h3>
+                <a href="longganisa.html">
+                    <button type="button" class="btn btn-warning">View Recipe</button>
+                </a>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card">
+                <img src="https://salu-salo.com/wp-content/uploads/2012/08/Sinigang-Hipon.jpg" alt="Sinigang na hipon">
+                <h3 class="mt-3">Sinigang na Hipon</h3>
+                <a href="hipon.html">
+                    <button type="button" class="btn btn-warning">View Recipe</button>
+                </a>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card">
+                <img src="https://cdn.sanity.io/images/f3knbc2s/production/b29390ec83b52a7559b5d900c3f27beab351c2be-2500x1500.jpg" alt="Inihaw na Baboy">
+                <h3 class="mt-3">Inihaw na Baboy</h3>
+                <a href="baboy.html">
+                    <button type="button" class="btn btn-warning">View Recipe</button>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-3 g-4 mt-3">
+        <div class="col">
+            <div class="card">
+                <img src="https://panlasangpinoy.com/wp-content/uploads/2011/10/Spicy-Dilis.jpg" alt="Spicy Dilis">
+                <h3 class="mt-3">Spicy Dilis</h3>
+                <a href="dilis.html">
+                    <button type="button" class="btn btn-warning">View Recipe</button>
+                </a>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card">
+                <img src="https://i0.wp.com/www.angsarap.net/wp-content/uploads/2015/11/Bulalo-Wide.jpg?ssl=1" alt="Bulalo">
+                <h3 class="mt-3">Bulalo</h3>
+                <a href="bulalo.html">
+                    <button type="button" class="btn btn-warning">View Recipe</button>
+                </a>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card">
+                <img src="https://assets.unileversolutions.com/recipes-v2/110738.jpg" alt="Laing">
+                <h3 class="mt-3">Laing</h3>
+                <a href="laing.html">
+                    <button type="button" class="btn btn-warning">View Recipe</button>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-3 g-4 mt-3">
+        <div class="col">
+            <div class="card">
+                <img src="https://i.ytimg.com/vi/CGCaBQGKMXM/maxresdefault.jpg" alt="Arroz Caldo">
+                <h3 class="mt-3">Arroz Caldo</h3>
+                <a href="arrozcaldo.html">
+                    <button type="button" class="btn btn-warning">View Recipe</button>
+                </a>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card">
+                <img src="https://www.maggi.ph/sites/default/files/styles/image_744_x_419/public/srh_recipes/c57212886fc65ae41cc15e8bd488d2d6.jpg">
+                <h3 class="mt-3">Chicken Adobo</h3>
+                <a href="adobo.html">
+                    <button type="button" class="btn btn-warning">View Recipe</button>
+                </a>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card">
+                <img src="https://www.maggi.ph/sites/default/files/styles/home_stage_944_531/public/srh_recipes/8c22cc1a3fd9020bb04e980fcf14724f.jpg">
+                <h3 class="mt-3">Pares</h3>
+                <a href="pares.html">
+                    <button type="button" class="btn btn-warning">View Recipe</button>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
